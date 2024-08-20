@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #B0AFFF;
+}
+
+
+.main{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    position: relative;
+}
+
+.heading{
+    width: 100%;
+    margin-top: 30px;
+    padding: 4rem;
+}
+
+.content{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.heading img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+.content h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.notes{
+    width: 100%;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    padding: 1rem 4rem;
+}
+
+.notes textarea{
+    width: 56%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 15px;
+    resize: none;
+    position: relative;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+
+#add, #clear{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
+
+#add:hover, #clear:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.Storenotes{
+    width: 100%;
+    padding: 1rem 4rem;
+    position: relative;
+}
+.Storenotes textarea{
+    width: 56%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 15px;
+    resize: none;
+}
+
+
+
+.Storenotes i{
+    position: absolute;
+    top: 185px;
+    right: 690px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: gray;
+
+}
+
